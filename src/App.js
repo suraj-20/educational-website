@@ -1,10 +1,13 @@
 import './App.css';
+import HeroSection from './Components/Hero-Section/HeroSection';
+// import Header from './Components/Header/Header';
+import Home from './Pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>HEllo world</h1>
-    </div>
+    <>
+    <Home />
+    </>
   );
 }
 
